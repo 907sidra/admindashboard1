@@ -19,7 +19,7 @@ export default function AdminLogin() {
      router.push("/admin/dashboard")
  } 
  else{
-        alert("Invalid Email or Password");
+        console.log("Invalid Email or Password");
  }
     return (
         <div className='flex justify-center items-center h-screen bg-gray-100'>
