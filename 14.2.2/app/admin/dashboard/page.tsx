@@ -5,7 +5,9 @@ import React from 'react';
 import { useEffect, useState} from 'react';
 import Swal from 'sweetalert2';
 import Image from 'next/image';
-import ProtectedRoute from '@/app/components/protectedRoute';
+import ProtectedRoute from '@/app/components/ProtectedRoute';
+
+
 
 interface Order {
     _id : string;
